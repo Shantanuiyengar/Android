@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shaan.crescendo_2k18.ClearAcc"
+    android:background="#000">
+
+
+    <TextView
+        android:id="@+id/CApasst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/CAuser"
+        android:text="Password"
+        android:textColor="#2eff00"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/CApass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/CApasst"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:textColor="#2eff00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/CAusert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="77dp"
+        android:text="UserID"
+        android:textColor="#2eff00"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/CAuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/CAusert"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#2eff00"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/CAsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/CApasst"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8118F"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="CLEAR ACCOUNT"
+        android:textColor="#030202"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

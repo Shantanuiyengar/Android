@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shaan.crescendo_2k18.CouncilMain"
+    android:background="#000000">
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textSize="28sp"
+        android:textColor="#2eff00"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/cmtv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="33dp"
+        android:fontFamily="serif"
+        android:textSize="28sp"
+        android:text="GAME:"
+        android:textColor="#2eff00"
+       />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="38dp"
+        android:id="@+id/relativeLayout2"
+        android:layout_below="@+id/cmtv2"
+        android:layout_alignParentStart="true">
+
+        <Spinner
+            android:id="@+id/cmsp"
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:background="@color/scolor"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/cmuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UserID"
+        android:fontFamily="serif"
+        android:textSize="28sp"
+        android:textColor="#2eff00"
+        android:layout_below="@+id/relativeLayout2"
+      />
+    <EditText
+        android:id="@+id/cmuser1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cmuser"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#2eff00"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/cmpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#2eff00"
+        android:fontFamily="serif"
+        android:textSize="28sp"
+        android:layout_below="@+id/cmuser1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/cmpass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/cmpass"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:textColor="#2eff00"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/cmsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Submit"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:layout_below="@+id/cmpass1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/cmreport"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="REPORT"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:layout_below="@+id/cmsubmit"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp" />
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">CRESCENDO-2K18</string>
+    <string-array name="Year">
+        <item>FE</item>
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+        <item>Faculty/Advisor</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="Branch">
+        <item>Computers</item>
+        <item>IT</item>
+        <item>Production</item>
+        <item>Electronics</item>
+        <item>Civil</item>
+        <item>Mechanical</item>
+        <item>Electrical and Telecommunication</item>
+        <item>Instrumentation</item>
+        <item>Chemical</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="Usernames">
+        <item>ASME</item>
+        <item>CODELABS</item>
+        <item>CSI</item>
+        <item>WIE</item>
+        <item>ECELL</item>
+        <item>IEEE</item>
+        <item>IIIE</item>
+        <item>ITSA</item>
+        <item>LITCLUB</item>
+        <item>MOZILLA</item>
+        <item>NSS</item>
+        <item>PCELL</item>
+        <item>SAE</item>
+        <item>SME</item>
+        <item>TEDX</item>
+        <item>STUCO</item>
+        <item>REGDESK1</item>
+        <item>REGDESK2</item>
+        <item>REGDESK3</item>
+        <item>REGDESK4</item>
+        <item>REGDESK5</item>
+        <item>REGDESK6</item>
+        <item>REGDESK7</item>
+        <item>REGDESK8</item>
+        <item>REGDESK9</item>
+        <item>REGDESK10</item>
+        <item>REGDESK11</item>
+        <item>REGDESK12</item>
+        <item>REGDESK13</item>
+        <item>REGDESK14</item>
+        <item>REGDESK15</item>
+    </string-array>
+</resources>

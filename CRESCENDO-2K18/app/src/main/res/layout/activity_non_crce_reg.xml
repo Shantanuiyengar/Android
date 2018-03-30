@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shaan.crescendo_2k18.NonCrceReg"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textColor="#2eff00"
+        android:textSize="25sp"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/ncname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv1"
+        android:textColor="#2eff00"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COLLEGE NAME"
+        android:layout_below="@+id/ncname"
+        android:textColor="#2eff00"
+        android:textSize="25sp"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/nccolname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textColor="#2eff00"
+        android:layout_below="@+id/tv2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/spinner_bg"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="38dp"
+        android:id="@+id/relativeLayout2"
+        android:layout_below="@+id/nccolname"
+        android:layout_alignParentStart="true">
+
+        <Spinner
+            android:id="@+id/ncS1"
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:entries="@array/Year" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/spinner_bg"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="38dp"
+        android:id="@+id/relativeLayout1"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentStart="true">
+
+        <Spinner
+            android:id="@+id/ncS2"
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:entries="@array/Branch" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHONE"
+        android:textColor="#2eff00"
+        android:layout_below="@+id/relativeLayout1"
+        android:textSize="25sp"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/ncphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv3"
+        android:textColor="#2eff00"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER ID"
+        android:textColor="#2eff00"
+        android:layout_below="@+id/ncphone"
+        android:textSize="25sp"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/ncuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#2eff00"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="15sp"
+        android:layout_below="@+id/tv4"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#2eff00"
+        android:text="PASSWORD"
+        android:layout_below="@+id/ncuser"
+        android:textSize="25sp"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/ncpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv5"
+        android:ems="10"
+        android:textColor="#2eff00"
+        android:inputType="numberPassword"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/ncsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8118F"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Submit"
+        android:textColor="#030202"
+        android:textSize="30sp"
+        android:layout_below="@+id/ncpass"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shaan.crescendo_2k18.BalCheck"
+    android:background="#000">
+    <TextView
+        android:id="@+id/bctv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER ID"
+        android:textColor="#2eff00"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="151dp" />
+    <EditText
+        android:id="@+id/bcuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bctv1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#2eff00"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/bcbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8118F"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="CHECK BALANCE"
+        android:textColor="#030202"
+        android:textSize="30sp"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/bcuser"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
